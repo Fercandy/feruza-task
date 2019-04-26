@@ -1,0 +1,6 @@
+.currencyWrapper{
+  display: flex;
+  justify-content: space-around;
+  max-width: 800px;
+  margin: 4rem auto;
+}

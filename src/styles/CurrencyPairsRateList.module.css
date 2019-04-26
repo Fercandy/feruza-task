@@ -1,0 +1,18 @@
+.currencyItem{
+  box-shadow: 0 5px 10px rgba(0,0,0,.1);
+  width: 300px;
+  padding: 10px;
+  background: white;
+}
+
+.currencyItem h3, 
+.currencyItem p{
+  font-family: Montserrat,sans-serif;
+  text-align: center;
+}
+.currencyItem h3 {
+  font-size: 24px;
+}
+.currencyItem p {
+  font-size: 18px;
+}
