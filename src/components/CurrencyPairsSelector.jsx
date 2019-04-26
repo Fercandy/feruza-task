@@ -47,7 +47,7 @@ const CurrencyPairsSelector = () => {
         }
       }, interval)
       return () => {
-        clearTimeout(updateTimer)
+        clearInterval(updateTimer)
       }
     }
   }, [rate])
@@ -124,7 +124,5 @@ async function updateRates(currencyId) {
   })
   return res
 }
-
-
 
 export default CurrencyPairsSelector
