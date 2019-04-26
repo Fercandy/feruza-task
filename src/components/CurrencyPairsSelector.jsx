@@ -52,7 +52,7 @@ const CurrencyPairsSelector = () => {
     }
   }, [rate])
 
-  function showTrending(updatedRate){
+  function showTrending(updatedRate) {
     if (updatedRate > rate) {
       setGrow('↑')
     } else if (updatedRate < rate) {
@@ -60,7 +60,7 @@ const CurrencyPairsSelector = () => {
     } else if (updatedRate === rate) {
       setGrow('-')
     }
-}
+  }
   async function handleChange(newCurrencyId) {
     setSelectedCurrencyId(newCurrencyId)
     localStorage.setItem('currencyPairs', newCurrencyId)
